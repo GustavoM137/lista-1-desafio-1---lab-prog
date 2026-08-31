@@ -21,7 +21,7 @@ int main() {
 
     } while (cotacao <= 0);
 
-    printf("R$ %.2f = $ %.2f", real, real * cotacao);
+    printf("R$ %.2f = $ %.2f", real, real / cotacao);
 
     return 0;
 }
